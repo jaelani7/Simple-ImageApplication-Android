@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jailaniahmad.aplikasigambar.MainActivity">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="477dp"
+        android:src="@drawable/fangtooth"
+        tools:layout_editor_absoluteY="-56dp"
+        tools:layout_editor_absoluteX="0dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="FANGTOOTH merupakan ikan laut yang hidup di kedalaman sekitar 16.000 kaki, ikan ini juga disebut sebagai 'ogrefish'. dan ikan ini merupakan ikan pemakan segala"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textScaleX="2"
+
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+
+</android.support.constraint.ConstraintLayout>
